@@ -1,0 +1,64 @@
+.navbar-custom {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+  margin-right: auto;
+  width: 50px;
+  
+}
+
+.links {
+  display: flex;
+  justify-content: end;
+ 
+}
+
+.active {
+  color: red;
+}
+.notActive {
+  color: rgb(212, 209, 209);
+}
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 80vh; 
+}
+
+.pikachu {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.pokemon-info {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  height: 80vh;
+  border: black solid 1px;
+ 
+}
+.select{
+  padding: 10px;
+  margin: 20px;
+}
+.boton{
+  padding: 5px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+
+
+
+
